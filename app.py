@@ -114,4 +114,5 @@ def chat():
     time=datetime.datetime.now().strftime("%H:%M:%S")
     return render_template_string(CHAT_HTML,name=name,time=time,response=response)
 
-app.run(host="0.0.0.0", port=5000)
+import os
+app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
