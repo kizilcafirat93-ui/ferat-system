@@ -1,0 +1,12 @@
+{
+    "boss": {
+        "password": "2012",
+        "name": "Admin",
+        "role": "admin"
+    },
+    "ferat": {
+        "password": "1997",
+        "name": "Ferat Bey",
+        "role": "user"
+    }
+}
